@@ -1,85 +1,64 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# The Creative Coder
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## [User Stories](#user_story) | [Tech](#tech) | [Todos](#todos) | [Contact](#contact)
 
-## About Laravel
+---
+As a software engineer I am always trying to learn new things, I am keen to create things as I learn which I think motivates me, by having something tangible to work towards and can demonstrate what i know/help me learn at the same time, that is where this website comes in. It is a portfolio site, just a small project that i am going to build up and break down a few times over, I will be adding other projects to it once I am happy with the state of it. I bought 'the creative coder' domain name a while ago so will hopefully have it hosted once i am happy.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### <a name="Tech">Tech Stack</a>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+My expected stack for the project is:
+- PHP 7.2 Laravel 7.0, MySQL, Bootstrap, JQuery, Javascript, HTML, CSS, SCSS, phpunit, faker, mockery.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### <a name="installation">Installation: how it works</a>
 
-## Learning Laravel
+Clone and install if you wish to.
+```
+git clone git@github.com:JRRS1982/creativecoder.git
+npm install
+npm run dev
+```
+### Testing
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+I am not too worried about tests as its a website without too much complexity, but will retrospectively add tests if development starts to get complicated and I feel the need.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### <a name="todos">Reflection and further development</a>
 
-## Laravel Sponsors
+**Todos**:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+I like the use of TODO's, as can track them pretty easily with VsCode so may scatter them around, as i think of improvements. I have found that Todo Tree is a great extension to manage these, will write acceptance criteria to test.
 
-### Premium Partners
+TODO: create layout file
+TODO: create header file
+TODO: create footer file
+TODO: create navbar file
+TODO: create a sidebar file.
+TODO: extend layout file for about/project/welcome page.
+TODO: add links for my social to site
+TODO: chop out a bunch of the HTML from homepage - would like it minimal.
+TODO: add an about me page - pages controller.
+TODO: add a contact page - pages controller.
+TODO: add a projects page - project controller.
+TODO: get a database setup with table for project
+TODO: add a factory for projects... make testing easier.
+TODO: get feature tests written.
+TODO: get unit tests written.
+TODO: create a makefile to run tests easily.
+TODO: create a Dockerfile and look at containerizing - maybe.
+TODO: double check csrf protection - @csrf under every form declaration.
+TODO: CI/CD? Do i want to add this to circleCI?
+TODO: how responsive is the site? Its a responsive css stylesheet, but check.
+TODO: semantic html - check the html is written fairly cleanly.
+TODO: anything i can cut out or refactor? Any code looking dirty?
+TODO: update readme.
+TODO: get it up hosted online.
+TODO: ongoing - add next few projects to it.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
 
-### Community Sponsors
+### Reflection
 
-<a href="https://op.gg"><img src="http://opgg-static.akamaized.net/icon/t.rectangle.png" width="150"></a>
+Enjoying the project so far, am taking a pretty relaxed approach to it. Happy with the style sheets that I integrated, feel like there is a lot of potential.
 
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [云软科技](http://www.yunruan.ltd/)
+### Credits
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Pixelarity for the lovely (paid) stylesheet otherwise [MIT](https://choosealicense.com/licenses/mit/)
