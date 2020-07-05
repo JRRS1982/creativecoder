@@ -9,7 +9,7 @@ class PagesController extends Controller
 {
     public function welcome()
     {
-        return view('welcome');
+        return view('pages/welcome');
     }
     
     public function about()
