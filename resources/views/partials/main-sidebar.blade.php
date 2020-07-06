@@ -14,7 +14,8 @@
             <ul>
                 <li><a href="/">Homepage</a></li>
                 <li><a href="/about">About me</a></li>
-                <li><a href="/project">Projects</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <!-- TODO would like a quick link directly to a few of my fav projects, i.e. directly showing off what i am proud of -->
                 <li>
                     <span class="opener">Some of my favourite projects</span>
                     <ul>
@@ -24,8 +25,8 @@
                         <li><a href="#">Project link 4</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Some of my favourite tools</a></li>
-                <li><a href="#">Contact me</a></li>
+                <li><a href="/tools">Some of my favourite tools</a></li>
+                <li><a href="/contact">Contact me</a></li>
             </ul>
         </nav>
     </div>
