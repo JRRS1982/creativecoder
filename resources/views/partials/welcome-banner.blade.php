@@ -3,9 +3,9 @@
     <div class="content">
         <header>
             <h1>Hi, I’m Jeremy Smith</h1>
-            <p>This is a web development portfolio project</p>
+            <p>This is a software development portfolio project</p>
         </header>
-        <p>I am making it for fun and practice, hopefully it will remain a fairly minimalist site which demonstrates some of the work I have done as a software developer.</p>
+        <p>I am making it for fun and practice, hopefully it will remain a fairly minimalist site which tells you a bit about me and demonstrates some of the work I have done as a software developer.</p>
         <ul class="actions">
             <li><a href="/about" class="button big">Learn More about me</a></li>
             <li><a href="/projects" class="button big">...or my Projects</a></li>

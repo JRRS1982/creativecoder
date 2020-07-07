@@ -31,20 +31,11 @@ I am not too worried about tests as its a website without too much complexity, b
 
 I like the use of TODO's, as can track them pretty easily with VsCode so may scatter them around, as i think of improvements. I have found that Todo Tree is a great extension to manage these, will write acceptance criteria to test.
 
-TODO: create layout file
-TODO: create header file
-TODO: create footer file
-TODO: create navbar file
-TODO: create a sidebar file.
-TODO: extend layout file for about/project/welcome page.
-TODO: add links for my social to site
-TODO: chop out a bunch of the HTML from homepage - would like it minimal.
-TODO: add an about me page - pages controller.
-TODO: add a contact page - pages controller.
 TODO: add a projects page - project controller.
 TODO: get a database setup with table for project
 TODO: get feature tests written.
 TODO: get unit tests written.
+TODO: get search functionality working - focus search of projects.
 TODO: create a makefile to run tests easily.
 TODO: create a Dockerfile and look at containerizing - maybe.
 TODO: double check csrf protection - @csrf under every form declaration.
@@ -63,6 +54,8 @@ TODO: ongoing - add next few projects to it.
 php artisan tinker
 factory(App\Project::class, 5)->create();
 ```
+- Layout file to keep page structure consistent and to DRY.
+- Partials to reduce typing and keep DRY.
 
 ### Reflection
 

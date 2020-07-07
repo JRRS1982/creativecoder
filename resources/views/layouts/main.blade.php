@@ -7,9 +7,7 @@
 
     <body class="is-preload">
         <div id="wrapper">
-
             @yield('content')
-         
             @include('partials.main-sidebar')
         </div>
         <div class="container">
