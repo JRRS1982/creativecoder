@@ -15,11 +15,10 @@ class CreateProjectsTable extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->unsignedBigInteger('user_id');
             $table->string('title');
             $table->string('intro');
             $table->mediumText('body');
-            $table->string('github_ink');
+            $table->string('github_link');
             $table->string('external_link');
             $table->string('cover_image_link');
             $table->timestamps();
