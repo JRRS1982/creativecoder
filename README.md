@@ -8,16 +8,19 @@ As a software engineer I am always trying to learn new things, I am keen to crea
 ### <a name="Tech">Tech Stack</a>
 
 My expected stack for the project is:
+
 - PHP 7.2 Laravel 7.0, MySQL, Bootstrap, JQuery, Javascript, HTML, CSS, SCSS, phpunit, faker, mockery.
 
 ### <a name="installation">Installation: how it works</a>
 
 Clone and install if you wish to.
+
 ```
 git clone git@github.com:JRRS1982/creativecoder.git
 npm install
 npm run dev
 ```
+
 ### Testing
 
 I am not too worried about tests as its a website without too much complexity, but will retrospectively add tests if development starts to get complicated and I feel the need.
@@ -40,7 +43,6 @@ TODO: add an about me page - pages controller.
 TODO: add a contact page - pages controller.
 TODO: add a projects page - project controller.
 TODO: get a database setup with table for project
-TODO: add a factory for projects... make testing easier.
 TODO: get feature tests written.
 TODO: get unit tests written.
 TODO: create a makefile to run tests easily.
@@ -54,6 +56,13 @@ TODO: update readme.
 TODO: get it up hosted online.
 TODO: ongoing - add next few projects to it.
 
+### Features
+
+- Factory to populate project table quickly.
+```
+php artisan tinker
+factory(App\Project::class, 5)->create();
+```
 
 ### Reflection
 
