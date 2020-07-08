@@ -6,7 +6,8 @@
                 <input type="text" name="query" id="query" placeholder="Search" />
             </form>
         </section>
-
+        
+        <!-- Navbar -->
         <nav id="menu">
             <header class="major">
                 <h2>Menu</h2>
@@ -29,5 +30,17 @@
                 <li><a href="/contact">Contact me</a></li>
             </ul>
         </nav>
+
+        <!-- Section -->
+        <section>
+            <header class="major">
+                <h2>Get in touch</h2>
+            </header>
+            <p></p>
+            <ul class="contact">
+                <li class="icon solid fa-envelope"><a href="#">jeremyrrsmith@gmail.com</a></li>
+                <li class="icon solid fa-home">Somewhere in London... currently<br/></li>
+            </ul>
+        </section>
     </div>
 </div>
