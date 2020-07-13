@@ -1,5 +1,5 @@
 <header id="header">
-    <a href="index.html" class="logo"><strong>The Creative Coder</strong> by Jeremy Smith</a>
+    <a href="{{ route('welcome') }}" class="logo"><strong>The Creative Coder</strong> by Jeremy Smith</a>
     <ul class="icons">
         <li><a href="https://twitter.com/Jeremystwita" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
         <li><a href="https://www.facebook.com/jeremyrrsmith" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>

@@ -7,11 +7,12 @@
         </header>
         <p>I am making it for fun and practice, hopefully it will remain a fairly minimalist site which tells you a bit about me and demonstrates some of the work I have done as a software developer.</p>
         <ul class="actions">
-            <li><a href="/about" class="button big">Learn More about me</a></li>
-            <li><a href="/projects" class="button big">...or my Projects</a></li>
+            <li><a href="{{ route('about') }}" class="button big">Learn More about me</a></li>
+            <li><a href="{{ route('projects") }} class="button big">...or my Projects</a></li>
         </ul>
     </div>
     <span class="image object">
+        <!-- TODO black and white picture of someone cool here maybe? -->
         <img src="images/pic10.jpg" alt="" />
     </span>
 </section>

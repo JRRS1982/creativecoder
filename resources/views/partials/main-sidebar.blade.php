@@ -13,10 +13,9 @@
                 <h2>Menu</h2>
             </header>
             <ul>
-                <li><a href="/">Homepage</a></li>
-                <li><a href="/about">About me</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <!-- TODO would like a quick link directly to a few of my fav projects, i.e. directly showing off what i am proud of -->
+                <li><a href="{{ route('welcome') }}">Homepage</a></li>
+                <li><a href="{{ route('about') }}">About me</a></li>
+                <li><a href="{{ route('projects') }}">Projects</a></li>
                 <li>
                     <span class="opener">Some of my favourite projects</span>
                     <ul>
@@ -26,8 +25,8 @@
                         <li><a href="#">Project link 4</a></li>
                     </ul>
                 </li>
-                <li><a href="/tools">Some of my favourite tools</a></li>
-                <li><a href="/contact">Contact me</a></li>
+                <li><a href="{{ route('tools') }}">Some of my favourite tools</a></li>
+                <li><a href="{{ route('contact') }}">Contact me</a></li>
             </ul>
         </nav>
 
@@ -38,8 +37,10 @@
             </header>
             <p></p>
             <ul class="contact">
-                <li class="icon solid fa-envelope"><a href="#">jeremyrrsmith@gmail.com</a></li>
-                <li class="icon solid fa-home">Somewhere in London... currently<br/></li>
+                <!-- TODO replace this href with a popup email generator at some point -->
+                <li class="icon solid fa-envelope"><a href="{{ route('contact') }}">jeremyrrsmith@gmail.com</a></li>
+                <li class="icon solid fa-phone">07398 722784</li>
+                <li class="icon solid fa-home">Currently London<br/></li>
             </ul>
         </section>
     </div>
