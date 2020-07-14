@@ -1,6 +1,7 @@
 <div id="sidebar">
     <div class="inner">
-
+        
+        <!-- TODO    dead code at the moment - -->
         <section id="search" class="alt">
             <form method="post" action="#">
                 <input type="text" name="query" id="query" placeholder="Search" />
@@ -25,19 +26,17 @@
                     </ul>
                 </li>
                 <li><a href="{{ route('tools') }}">Some of my favourite tools</a></li>
-                <li><a href="{{ route('contact') }}">Contact me</a></li>
             </ul>
         </nav>
 
         <!-- Section -->
         <section>
             <header class="major">
-                <h2>Get in touch</h2>
+                <h2>Contact me</h2>
             </header>
             <p></p>
             <ul class="contact">
-                <!-- TODO replace this href with a popup email generator at some point -->
-                <li class="icon solid fa-envelope"><a href="{{ route('contact') }}">jeremyrrsmith@gmail.com</a></li>
+                <li class="icon solid fa-envelope"><a>jeremyrrsmith@gmail.com</a></li>
                 <li class="icon solid fa-phone">07398 722784</li>
                 <li class="icon solid fa-home">Currently London<br/></li>
             </ul>
