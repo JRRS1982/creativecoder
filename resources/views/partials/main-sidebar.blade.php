@@ -19,10 +19,9 @@
                 <li>
                     <span class="opener">Some of my favourite projects</span>
                     <ul>
-                        <li><a href="#">Project link 1</a></li>
-                        <li><a href="#">Project link 2</a></li>
-                        <li><a href="#">Project link 3</a></li>
-                        <li><a href="#">Project link 4</a></li>
+                        <li><a href="https://github.com/Hives/acebook-business-logic">Acebook on github</a></li>
+                        <li><a href="https://github.com/JRRS1982/Online-marketplace">Online Marketplace on github</a></li>
+                        <!-- TODO add a couple more projects -->
                     </ul>
                 </li>
                 <li><a href="{{ route('tools') }}">Some of my favourite tools</a></li>
