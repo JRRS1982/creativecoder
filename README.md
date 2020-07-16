@@ -7,23 +7,25 @@ As a software engineer I am always trying to learn new things, I am keen to crea
 
 ### <a name="Tech">Tech Stack</a>
 
-My expected stack for the project is:
-
-- PHP 7.2 Laravel 7.0, MySQL, Bootstrap, JQuery, Javascript, HTML, CSS, SCSS, phpunit, faker, mockery.
+A PHP / Laravel project with a style sheet added for the css / javascript.
 
 ### <a name="installation">Installation: how it works</a>
 
-Clone and install if you wish to.
+Not intended for sharing widely, but if you wish its a simple.
 
 ```
 git clone git@github.com:JRRS1982/creativecoder.git
 npm install
 npm run dev
+php artisan migrate
+// populate the db with some dummy data
+php artisan tinker
+factory(App\Project::class, 9)->create();
 ```
 
 ### Testing
 
-I am not too worried about tests as its a website without too much complexity, but will retrospectively add tests if development starts to get complicated and I feel the need.
+Its a static site, I have not yet felt the need to add tests, it is an option if there is further development.
 
 ### <a name="todos">Reflection and further development</a>
 
@@ -31,31 +33,29 @@ I am not too worried about tests as its a website without too much complexity, b
 
 I like the use of TODO's, as can track them pretty easily with VsCode so may scatter them around, as i think of improvements. I have found that Todo Tree is a great extension to manage these, will write acceptance criteria to test.
 
-TODO: add a projects page - project controller.
-TODO: get a database setup with table for project
-TODO: get feature tests written.
-TODO: get unit tests written.
-TODO: get search functionality working - focus search of projects.
-TODO: create a makefile to run tests easily.
-TODO: create a Dockerfile and look at containerizing - maybe.
-TODO: double check csrf protection - @csrf under every form declaration.
-TODO: CI/CD? Do i want to add this to circleCI?
-TODO: how responsive is the site? Its a responsive css stylesheet, but check.
-TODO: semantic html - check the html is written fairly cleanly.
-TODO: anything i can cut out or refactor? Any code looking dirty?
-TODO: update readme.
-TODO: get it up hosted online.
-TODO: ongoing - add next few projects to it.
+TODO: get search functionality working - search of projects.
+TODO: get it up hosted online - Github?
+
+TODO: add some tools to the tools page - dunno what, just add some blurb, just a static page.
 
 ### Features
 
+Its a pretty basic site really, not many features, but I liked the style sheet so thought I would make it.
+
 - Factory to populate project table quickly.
+
 ```
+
 php artisan tinker
 factory(App\Project::class, 5)->create();
+
 ```
-- Layout file to keep page structure consistent and to DRY.
-- Partials to reduce typing and keep DRY.
+
+- Layout file to keep page structure consistent and DRY
+- Partials to reduce typing and keep DRY
+- @csrf tag under each html form to protect against cross-site request forgery
+- migration to make a project table
+- dynamic display projects from the database
 
 ### Reflection
 
