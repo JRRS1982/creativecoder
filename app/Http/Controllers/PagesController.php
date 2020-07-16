@@ -3,22 +3,26 @@
 namespace App\Http\Controllers;
 
 use App\About;
+use App\Project;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
     public function welcome()
     {
-        return view('pages/welcome');
+       $projects = Project::get();
+        return view('pages/welcome', ['projects' => $projects]);
     }
     
     public function about()
     {
-        return view('pages/about');
+        $projects = Project::get();
+        return view('pages/about', ['projects' => $projects]);
     }
     
     public function tools()
     {
-        return view('pages/tools');
+        $projects = Project::get();
+        return view('pages/tools', ['projects' => $projects]);
     }
 }

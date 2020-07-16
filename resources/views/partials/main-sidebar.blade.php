@@ -17,12 +17,13 @@
             <ul>
                 <li><a href="{{ route('welcome') }}">Homepage</a></li>
                 <li><a href="{{ route('about') }}">About me</a></li>
-                <li><a href="{{ route('projects') }}">Projects</a></li>
+                <li><a href="{{ route('projects') }}">My Projects</a></li>
                 <li>
-                    <span class="opener">Some of my favourite projects</span>
+                    <span class="opener">Quick links to github</span>
                     <ul>
-                        <li><a href="https://github.com/Hives/acebook-business-logic">Acebook on github</a></li>
-                        <li><a href="https://github.com/JRRS1982/Online-marketplace">Online Marketplace on github</a></li>
+                        <li><a href="{{ $projects[0] }}">{{ $projects[0]->title }}</a></li>
+                        <li><a href="{{ $projects[1] }}">{{ $projects[1]->title }}</a></li>
+                        <li><a href="{{ $projects[2] }}">{{ $projects[2]->title }}</a></li>
                         <!-- TODO add a couple more projects -->
                     </ul>
                 </li>
