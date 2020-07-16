@@ -17,10 +17,8 @@ class CreateProjectsTable extends Migration
             $table->bigIncrements('id');
             $table->string('title');
             $table->string('intro');
-            $table->mediumText('body');
             $table->string('github_link');
-            $table->string('external_link');
-            $table->string('cover_image_link');
+            $table->string('image');
             $table->timestamps();
         });
     }

@@ -22,10 +22,8 @@ $factory->define(Project::class, function (Faker $faker) {
         'id' => $faker->unique()->randomNumber,
         'title' => $faker->sentence(4),
         'intro' => $faker->sentence(2),
-        'body' => $faker->paragraph(3),
         'github_link' => $faker->url,
-        'external_link' => $faker->url,
-        'cover_image_link' => $faker->url,
+        'image' => $faker->image('public/storage/images', $width = 416, $height = 256, null, false),
         'created_at' => $faker->date(),
         'updated_at' => $faker->date(),
     ];
