@@ -4,7 +4,8 @@
         <!-- TODO    dead code at the moment - -->
         <section id="search" class="alt">
             <form method="post" action="#">
-                <input type="text" name="query" id="query" placeholder="Search" />
+                @csrf
+                <input type="text" name="query" id="query" placeholder="Search my projects" />
             </form>
         </section>
         
