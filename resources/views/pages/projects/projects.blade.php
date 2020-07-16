@@ -19,7 +19,7 @@
         <section>
             <div class="posts">
                 @foreach($projects as $project)
-                <article><a class="image" style="cursor: pointer;"><img src="/storage/images{{ $project->image }}" alt=""></a>
+                <article><a class="image" style="cursor: pointer;"><img src="{{ $project->image }}" alt=""></a>
                     <h3>{{ $project->title }}</h3>
                     <p>{{ $project->intro }}</p>
                     <ul class="actions">

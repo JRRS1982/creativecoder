@@ -23,7 +23,7 @@ $factory->define(Project::class, function (Faker $faker) {
         'title' => $faker->sentence(4),
         'intro' => $faker->sentence(2),
         'github_link' => $faker->url,
-        'image' => $faker->image('public/storage/images', $width = 416, $height = 256, null, false),
+        'image' => $faker->imageUrl($width = 416, $height = 256, null, false),
         'created_at' => $faker->date(),
         'updated_at' => $faker->date(),
     ];
