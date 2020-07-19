@@ -18,12 +18,12 @@
 
                 <hr class="major" />
                 <h2>What i do</h2>
-                <Recently>I originally learnt to code in Ruby, but it was trial by fire in my first software development role, a beyond end of life, Laravel / CodeIngniter spaghetti monster monoliths with no test suite. Recently I have been working on / learning how to create beautiful React / Redux / Typesctipt projects.</p>
-                <p>I am spending most of my personal time reading up about coding concepts, working through tutorials, kata and making projects. I am new to the industry so i'm trying to fill my head with as much as I can as quickly as I can.</p>
+                <Recently>I learnt how to code Ruby at Makers Academy bootcamp, then got a job in PHP on a Laravel / CodeIngniter spaghetti monolith with no tests. I have learnt how to stay calm when on unsure footing and follow the code. I have been learning how to create beautiful React / Redux / Typescript projects recently, and prefer what I have seen so far.</p>
+                <p>I am spending most of my down time reading up about coding concepts, working through tutorials and making projects. The training in the first 9 months of my software training career has been laissez faire, which has developed me greatly on a personal level, causing me to become more self reliant, frustrated and therefore determined to succeed and improve. I am fairly confident that I can learn any coding concept now, however am also aware of the amount of time required to learn everything, therefore the importance of focus.</p>
 
                 <hr class="major" />
                 <h2>What i want to do</h2>
-                <Recently>I spent 15 years in property and finance and was never happy, I now enjoy what I do and hope that it will continue long into the future. I dont really care what coding language that I work in, as long as I work with friendly like minded people that care about what they do. It is of course important to have a balance in life, and take care of your health, but at this stage of my career I am looking to put the effort in and skill up. Once I have established a decent career in code I will probably start volunteering some time for charity.</p>
+                <Recently>I spent 15 years in property and finance managing buildings and doing paperwork for wealthy investors, I did not get much enjoyment form that, but now truly love what I do. I don't really care what coding language that I work in, as long as I work with friendly well balanced people that care about what they do.</p>
                 
                 <!-- <hr class="major" />
                 <h2>Testimonials</h2> 
