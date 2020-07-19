@@ -12,7 +12,7 @@
             <header class="main">
                 <h1>Projects</h1>
             </header>
-            <p>A list of projects and platforms that I have built, worked on and learnt from.</p>
+            <h3>A list of projects that I have built, worked on and learnt from.</h3>
         </section>
         
         <!-- Content -->
